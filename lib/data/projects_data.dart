@@ -9,121 +9,128 @@ class ProjectsData {
     // ─────────────────────────────────────────────
     // MOBILE & FLUTTER
     // ─────────────────────────────────────────────
+
     ProjectCategory(
-      title: 'Mobile & Flutter',
-      subtitle:
-          'Modern mobile and cross-platform applications built with Flutter.',
+      title: 'Flutter & Mobile App Development',
+      subtitle: 'Cross-platform mobile applications, Firebase integration, APIs and real-world app development.',
       projects: [
         ProjectModel(
-          title: 'Habito — Habit Tracking App',
+          title: 'Decorify - AR Furniture Shopping App',
           description:
-              'A modern habit tracking application designed to help users '
-              'build consistent routines, monitor their progress, and develop '
-              'better daily habits through an intuitive mobile experience.',
-          screenshotPaths: [
-            'lib/resources/images/projects/Ecom_app/1.jpg',
-            'lib/resources/images/projects/Ecom_app/2.jpg',
-            'lib/resources/images/projects/Ecom_app/3.jpg',
-            'lib/resources/images/projects/Ecom_app/4.jpg',
-            'lib/resources/images/projects/Ecom_app/5.jpg',
-            'lib/resources/images/projects/Ecom_app/6.jpg',
-            'lib/resources/images/projects/Ecom_app/7.jpg',
-            'lib/resources/images/projects/Ecom_app/8.jpg',
-            'lib/resources/images/projects/Ecom_app/9.jpg',
+          'An AR-based furniture shopping application that allows users '
+              'to browse products, manage carts and orders, and visualize '
+              'multiple 3D furniture models in their real-world environment.',
+          imagePath: 'lib/resources/images/projects/decorify.jpeg',
+          technologies: [
+            'Flutter',
+            'Dart',
+            'Firebase',
+            'Cloud Firestore',
+            'Kotlin',
+            'ARCore',
+            'SceneView',
+            'Cloudinary',
+            'Stripe',
           ],
-          videoPath: 'lib/resources/videos/Ecom_app/task.mp4',
+          githubUrl: 'https://github.com/mohammadkhan47/ARdecorapp.git',
+          liveUrl: null,
+          details: [
+            ProjectDetail(
+              title: 'AR Technology',
+              content: 'ARCore + SceneView + Kotlin',
+              icon: Icons.view_in_ar_rounded,
+            ),
+            ProjectDetail(
+              title: 'Backend',
+              content: 'Firebase Authentication & Firestore',
+              icon: Icons.storage_rounded,
+            ),
+            ProjectDetail(
+              title: 'Payments',
+              content: 'Stripe Payment Integration',
+              icon: Icons.payment_rounded,
+            ),
+          ],
+        ),
+
+        ProjectModel(
+          title: 'Lost & Back - Lost and Found App',
+          description:
+          'A location-based lost and found application that helps users '
+              'report lost or found items, discover nearby reports, '
+              'communicate with other users, and manage reports.',
+          imagePath: 'lib/resources/images/projects/lost_back.jpeg',
           technologies: [
             'Flutter',
             'Dart',
             'Provider',
             'MVVM',
             'Firebase',
-            'Firestore',
+            'Cloud Firestore',
+            'Google Maps API',
+            'Cloudinary',
           ],
-          githubUrl: 'https://github.com/SaadKhani/FYP-Habbito_appication.git',
+          githubUrl: 'https://github.com/mohammadkhan47',
           liveUrl: null,
           details: [
             ProjectDetail(
-              title: 'Architecture',
-              content: 'MVVM + Provider + Repository Pattern',
-              icon: Icons.architecture_rounded,
+              title: 'State Management',
+              content: 'Provider + MVVM',
+              icon: Icons.account_tree_rounded,
+            ),
+            ProjectDetail(
+              title: 'Location',
+              content: 'Google Maps API',
+              icon: Icons.location_on_rounded,
             ),
             ProjectDetail(
               title: 'Backend',
-              content: 'Firebase Authentication + Cloud Firestore',
-              icon: Icons.cloud_outlined,
-            ),
-            ProjectDetail(
-              title: 'State Management',
-              content: 'Provider',
-              icon: Icons.account_tree_outlined,
-            ),
-          ],
-        ),
-        ProjectModel(
-          title: 'Habito — Habit Tracking App',
-          description:
-              'A modern habit tracking application designed to help users build consistent habits.',
-          imagePath: 'lib/resources/images/projects/habitto.jpeg',
-          screenshotPaths: [],
-          technologies: ['Flutter', 'Dart', 'Firebase', 'Provider', 'MVVM'],
-          githubUrl: 'https://github.com/SaadKhani/FYP-Habbito_appication.git',
-        ),
-
-        ProjectModel(
-          title: 'E-Commerce Application',
-          description:
-              'A complete Flutter e-commerce application featuring product '
-              'browsing, categories, cart management, authentication, and '
-              'a responsive user interface.',
-          imagePath: 'lib/resources/images/projects/habbito.jpeg',
-          technologies: ['Flutter', 'Dart', 'Firebase', 'REST API', 'Provider'],
-          githubUrl: 'https://github.com/SaadKhani/FYP-Habbito_appication.git',
-          liveUrl: null,
-          details: [
-            ProjectDetail(
-              title: 'Architecture',
-              content: 'MVVM + Repository Pattern',
-              icon: Icons.architecture_rounded,
-            ),
-            ProjectDetail(
-              title: 'Authentication',
-              content: 'Firebase Authentication',
-              icon: Icons.lock_outline_rounded,
-            ),
-            ProjectDetail(
-              title: 'State Management',
-              content: 'Provider',
-              icon: Icons.account_tree_outlined,
+              content: 'Firebase + Cloudinary',
+              icon: Icons.cloud_rounded,
             ),
           ],
         ),
 
         ProjectModel(
-          title: 'Campus Mess Application',
+          title: 'TimeFlow - Time Management App',
           description:
-              'A mobile application designed to simplify hostel and mess '
-              'management by connecting students with mess services and '
-              'providing a convenient digital experience.',
-          imagePath: 'lib/resources/images/projects/habbito.jpeg',
-          technologies: ['Flutter', 'Dart', 'Firebase', 'REST API'],
-          githubUrl: 'https://github.com/SaadKhani/FYP-Habbito_appication.git',
+          'A productivity application designed to help users organize '
+              'daily schedules, manage time blocks, and synchronize calendar '
+              'events using Google Calendar integration.',
+          imagePath: 'lib/resources/images/projects/timeflow.jpeg',
+          technologies: [
+            'Flutter',
+            'Dart',
+            'GetX',
+            'Hive',
+            'Firebase',
+            'Google Calendar API',
+            'OAuth 2.0',
+          ],
+          githubUrl:
+          'https://github.com/Abbashussainofficial/time_flow',
           liveUrl: null,
           details: [
             ProjectDetail(
-              title: 'Platform',
-              content: 'Android + Flutter',
-              icon: Icons.phone_android_rounded,
+              title: 'State Management',
+              content: 'GetX',
+              icon: Icons.account_tree_rounded,
             ),
             ProjectDetail(
-              title: 'Backend',
-              content: 'REST API + Firebase',
-              icon: Icons.cloud_outlined,
+              title: 'Local Storage',
+              content: 'Hive Database',
+              icon: Icons.storage_rounded,
+            ),
+            ProjectDetail(
+              title: 'Integration',
+              content: 'Google Calendar API + OAuth 2.0',
+              icon: Icons.calendar_month_rounded,
             ),
           ],
         ),
       ],
     ),
+
 
     // ─────────────────────────────────────────────
     // BACKEND & APIs
@@ -162,7 +169,7 @@ class ProjectsData {
             ),
             ProjectDetail(
               title: 'API',
-              content: 'RESTful API',
+              content: 'RESTFUL API',
               icon: Icons.api_rounded,
             ),
           ],
@@ -416,5 +423,5 @@ class ProjectsData {
         ),
       ],
     ),
-  ];
-}
+     ];
+   }

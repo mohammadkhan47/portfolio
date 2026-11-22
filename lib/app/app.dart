@@ -9,7 +9,7 @@ class PortfolioApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Muhammad Saad Khan | Full-Stack AI Developer',
+      title: 'Mohammad Mehmood Khan | Flutter Developer',
 
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,

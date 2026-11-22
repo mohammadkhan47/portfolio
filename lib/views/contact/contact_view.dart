@@ -9,7 +9,7 @@ import '../../widgets/common/section_title.dart';
 class ContactView extends StatelessWidget {
   const ContactView({super.key});
 
-  static const String email = 'saadkan000@gmail.com';
+  static const String email = 'mohammadneon47@gmail.com';
   static const String githubUrl = 'https://github.com/SaadKhani';
   static const String linkedInUrl =
       'https://www.linkedin.com/in/muhammad-saad-khan-355511379';
@@ -66,7 +66,7 @@ class ContactView extends StatelessWidget {
               _buildContactCard(
                 icon: Icons.location_on_outlined,
                 title: 'Location',
-                value: 'Peshawar, Pakistan',
+                value: 'Islamabad, Pakistan',
               ),
 
               const SizedBox(height: 28),
@@ -217,7 +217,7 @@ class ContactView extends StatelessWidget {
       child: Column(
         children: [
           Text(
-            'Muhammad Saad Khan',
+            'Mohammad Mehmood khan',
             style: AppTextStyles.titleLarge,
             textAlign: TextAlign.center,
           ),
@@ -225,7 +225,7 @@ class ContactView extends StatelessWidget {
           const SizedBox(height: 8),
 
           Text(
-            'Full-Stack AI Developer',
+            'Flutter Developer',
             style: AppTextStyles.bodySmall,
             textAlign: TextAlign.center,
           ),
@@ -233,7 +233,7 @@ class ContactView extends StatelessWidget {
           const SizedBox(height: 18),
 
           Text(
-            '© ${DateTime.now().year} Muhammad Saad Khan. '
+            '© ${DateTime.now().year} Mohammad Mehmood Khan. '
             'All rights reserved.',
             style: AppTextStyles.bodySmall,
             textAlign: TextAlign.center,

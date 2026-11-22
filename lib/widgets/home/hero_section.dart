@@ -234,7 +234,7 @@ class _HeroVisual extends StatelessWidget {
                     ),
                     child: ClipOval(
                       child: Image.asset(
-                        'lib/resources/images/profile/profile_pic.jpeg',
+                        'lib/resources/images/profile/image.jpg',
                         fit: BoxFit.cover,
                       ),
                     ),

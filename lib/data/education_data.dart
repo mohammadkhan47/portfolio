@@ -23,14 +23,14 @@ class EducationData {
     ),
 
     EducationModel(
-      degree: 'F.Sc. (Pre-Medical)',
-      institution: 'Edwardes College Peshawar',
-      location: 'Peshawar, Pakistan',
-      duration: '2019 — 2021',
+      degree: 'F.Sc. (Pre-Engineering)',
+      institution: 'Pioneer Group of School & College Marghuz Swabi',
+      location: 'Swabi, Pakistan',
+      duration: '2020 — 2022',
       description:
           'Completed F.Sc. with a focus on science subjects, providing a '
           'strong academic foundation before pursuing Computer Science.',
-      highlights: ['Physics', 'Chemistry', 'Biology', 'Mathematics'],
+      highlights: ['Mathematics', 'Physics', 'English', 'Chemistry'],
     ),
   ];
 }
